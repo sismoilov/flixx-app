@@ -461,6 +461,8 @@ if(global.search.page === global.search.totalPages){
   document.querySelector("#next").disabled = true;
 }
 
+
+
 ///next page
 document.querySelector("#next").addEventListener('click', async ()=>{
   global.search.page++;
